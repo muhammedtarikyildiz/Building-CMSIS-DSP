@@ -6,8 +6,10 @@ Create a folder where both CMSIS-6 and CMSIS-DSP will be stored.
 
 ## Clone CMSIS-6 and CMSIS-DSP into the folder
 For the compilation process, you need the latest repositories from Git. You can either use the commands below or download the repositories as compressed archives and extract them into the folder you created:
+```
 git clone https://github.com/ARM-software/CMSIS_6
 git clone https://github.com/ARM-software/CMSIS-DSP
+```
 
 ## Create ```CMakeLists.txt``` File
 
